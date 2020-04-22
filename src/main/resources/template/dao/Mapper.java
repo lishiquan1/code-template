@@ -6,7 +6,7 @@ import tk.mybatis.mapper.common.Mapper;
 /**
  * Demo ${Table}持久层接口
  *
- * @author lishiquan
+ * @author ${author}
  */
 public interface ${Table}Mapper extends Mapper<${Table}> {
 }

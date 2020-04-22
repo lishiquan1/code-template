@@ -1,4 +1,4 @@
-package com.changgou.order.feign;
+package ${package_feign};
 
 import com.changgou.common.entity.Result;
 import ${package_pojo}.${Table};
@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Demo ${Table} Feign接口
  *
- * @author lishiquan
+ * @author ${author}
  */
 @FeignClient(name = "${serviceName}")
 @RequestMapping("/${table}")

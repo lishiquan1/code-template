@@ -42,6 +42,7 @@ public class TemplateUtil {
         //包参数
         dataModel.put("package_controller",TemplateBuilder.PACKAGE_CONTROLLER);
         dataModel.put("package_pojo",TemplateBuilder.PACKAGE_POJO);
+        dataModel.put("package_feign", TemplateBuilder.PACKAGE_FEIGN);
         dataModel.put("package_mapper",TemplateBuilder.PACKAGE_MAPPER);
         dataModel.put("package_service",TemplateBuilder.PACKAGE_SERVICE_INTERFACE);
         dataModel.put("package_service_impl",TemplateBuilder.PACKAGE_SERVICE_INTERFACE_IMPL);

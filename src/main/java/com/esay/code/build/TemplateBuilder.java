@@ -51,6 +51,9 @@ public class TemplateBuilder {
     //swagger-ui路径
     public static String SWAGGERUI_PATH;
 
+    // author
+    public static String AUTHOR;
+
     static {
         try {
             //加载配置文件
@@ -72,7 +75,7 @@ public class TemplateBuilder {
             SWAGGERUI_PATH = props.getProperty("swaggeruipath");
             //工程路径
             PROJECT_PATH=TemplateBuilder.class.getClassLoader().getResource("").getPath().replace("/target/classes/","")+"/src/main/java/";
-
+            AUTHOR = props.getProperty("author");
             //加载数据库驱动
             Class.forName(props.getProperty("driver"));
         } catch (Exception e) {
@@ -179,6 +182,7 @@ public class TemplateBuilder {
                     modelMap.put("keySetMethod","set"+StringUtils.firstUpper(StringUtils.replace_(key)));
                     modelMap.put("keyType",keyType);
                     modelMap.put("serviceName",SERVICENAME);
+                    modelMap.put("author", AUTHOR);
 
                     //创建JavaBean
                     PojoBuilder.builder(modelMap);

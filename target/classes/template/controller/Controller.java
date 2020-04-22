@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Demo ${Table}表现层
  *
- * @author lishiquan
+ * @author ${author}
  */
 <#if swagger==true>@Api("${Table}Controller")</#if>
 @RestController

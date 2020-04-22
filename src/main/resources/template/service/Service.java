@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Demo ${Table}业务层接口
  *
- * @author lishiquan
+ * @author ${author}
  */
 public interface ${Table}Service {
     

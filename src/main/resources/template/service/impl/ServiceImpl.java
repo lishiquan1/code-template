@@ -15,7 +15,7 @@ import java.util.List;
 /**
  * Demo ${Table}业务层接口实现类
  *
- * @author lishiquan
+ * @author ${author}
  */
 @Service
 public class ${Table}ServiceImpl implements ${Table}Service {

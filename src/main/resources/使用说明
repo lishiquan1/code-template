@@ -28,3 +28,4 @@ application.properties中配置
     package_service_impl：serviceImpl实现类包路径
 
 6.多条件搜索时，如果属性名字包含name、title，则会进行like模糊搜索
+7.com.changgou.common是工具类, 解决自动生成代码的依赖包

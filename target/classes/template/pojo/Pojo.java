@@ -12,7 +12,7 @@ import ${set};
 /**
  * Demo ${Table}实体类
  *
- * @author lishiquan
+ * @author ${author}
  */
 <#if swagger==true>
 @ApiModel(description = "${Table}",value = "${Table}")
